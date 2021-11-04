@@ -1,10 +1,10 @@
 ; Define variables in the data section
-section .data
+.data
 	hello:     db 'Hello world!',10
 	helloLen:  equ $-hello
 
 ; Code goes in the text section
-section .text
+.text
 	GLOBAL _start 
 
 _start:
