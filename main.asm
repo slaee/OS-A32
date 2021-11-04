@@ -1,8 +1,8 @@
 ; Define variables in the data section
 .data
-	hello:     db 'Hello world!',10
+	hello:     db '',10
 	helloLen:  equ $-hello
-
+	
 ; Code goes in the text section
 .text
 	GLOBAL _start 
